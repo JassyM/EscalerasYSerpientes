@@ -1,0 +1,116 @@
+#include "Juez.h"
+
+Juez::Juez()
+{
+    //Tablero tablero();
+    //ctor
+}
+
+Juez::~Juez()
+{
+    //dtor
+}
+
+
+int Juez::lanzarDado()
+{
+    srand(time(0));
+    return valorDado = ((rand()%7) + 1);
+}
+
+void Juez::mostrarTablero()
+{
+    tablero.imprimirTablero();
+}
+
+void Juez::asignarFicha(string n1, string n2)
+{
+    string X = "X";
+    string O = "O";
+    j1.nombreJ(n1);
+    j1.fichaJ(X);
+    cout << endl;
+    cout <<  j1.darNombreJ() << "  jugara con la ficha:  " << j1.darFicha() << endl;
+    j2.nombreJ(n2);
+    j2.fichaJ(O);
+    cout << j2.darNombreJ() << "  jugara con la ficha:  " << j2.darFicha() << endl<<endl;
+}
+
+
+void Juez::asignarTurno()
+{
+    srand(time(0));
+    if((rand()%2) == 0) // inicia jugador 2
+    {
+        cout<<"Inicia jugador 2 "<<j2.darNombreJ();
+        cout << endl<<endl;
+        system("pause>nul"); // Evita el mensaje "Presione una tecla para continuar"
+                          // Detiene por un momento el sistema.
+        turno = true; //Inicia el jugador2
+    }
+
+    else //Inicia el jugador1
+    {
+       cout<<"Inicia jugador 1:  "<<j1.darNombreJ();
+       cout << endl<<endl;
+       system("pause>nul");
+       turno = false; //Inicia el jugador1
+    }
+}
+
+string Juez::toString(int x)
+{
+    string salida = "";
+    stringstream stream;
+    stream << x;
+    salida = stream.str();
+    return salida;
+}
+
+void Juez::moverJugador(string nombreJ, int valorDado)
+{
+    if(j1.darNombreJ()==nombreJ)
+    {
+        j1.posInicialJ(j1.darPosFinal());
+        j1.posFinalJ(j1.darPosFinal()+valorDado);
+
+        string posNueva = toString(j1.darPosFinal());
+        for(int i=0; i<10;i++)
+        {
+            for(int j=0; j<10;j++)
+            {
+                if (tablero[i][j]== posNueva)
+                {
+                    tablero[i][j]=j1.darFicha();
+                    tablero.imprimirTablero();
+                    break;
+                }
+            }
+        }
+    }
+
+    if else (j2.darNombreJ()==nombreJ)
+    {
+        j2.posInicialJ(j2.darPosFinal());
+        j2.posFinalJ(j2.darPosFinal()+valorDado);
+
+        string posNueva = toString(j2.darPosFinal());
+        for(int i=0; i<10;i++)
+        {
+            for(int j=0; j<10;j++)
+            {
+                if (posNueva==tablero[i][j])
+                {
+                    tablero[i][j]=j2.darFicha();
+                    tablero.imprimirTablero();
+                    break;
+                }
+            }
+        }
+    }
+
+    else
+    {
+        cout << tablero.imprimirTablero();
+    }
+}

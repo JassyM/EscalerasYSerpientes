@@ -1,0 +1,229 @@
+# depslib dependency file v1.0
+1417838174 source:j:\proyecto final punto 3\escaleras_y_serpientes\main.cpp
+	<iostream>
+	"Juez.h"
+	"Partida.h"
+
+1417979520 j:\proyecto final punto 3\escaleras_y_serpientes\include\juez.h
+	"Tablero.h"
+	"Jugador.h"
+	"FabricaJugador.h"
+	"Ganadores.h"
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<string>
+	<windows.h>
+	<sstream>
+
+1417214478 j:\proyecto final punto 3\escaleras_y_serpientes\include\tablero.h
+	<string>
+	<windows.h>
+	<iostream>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+
+1417798546 j:\proyecto final punto 3\escaleras_y_serpientes\include\jugador.h
+	<string>
+
+1417981158 j:\proyecto final punto 3\escaleras_y_serpientes\include\fabricajugador.h
+	"Jugador.h"
+	"Ganadores.h"
+	"JugadorHumano.h"
+	"JugadorMaquina.h"
+	"Juez.h"
+	<iostream>
+	<windows.h>
+
+1418107236 j:\proyecto final punto 3\escaleras_y_serpientes\include\ganadores.h
+	<sstream>
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<string>
+	<fstream>
+
+1417797372 j:\proyecto final punto 3\escaleras_y_serpientes\include\jugadorhumano.h
+	"Jugador.h"
+	<string>
+
+1417797554 j:\proyecto final punto 3\escaleras_y_serpientes\include\jugadormaquina.h
+	"Jugador.h"
+	<string>
+
+1417834272 j:\proyecto final punto 3\escaleras_y_serpientes\include\partida.h
+	"Juez.h"
+	<iostream>
+
+1418164920 source:j:\proyecto final punto 3\escaleras_y_serpientes\src\fabricajugador.cpp
+	"FabricaJugador.h"
+
+1418144118 source:j:\proyecto final punto 3\escaleras_y_serpientes\src\juez.cpp
+	"Juez.h"
+
+1417797372 source:j:\proyecto final punto 3\escaleras_y_serpientes\src\jugador.cpp
+	"Jugador.h"
+
+1417797372 source:j:\proyecto final punto 3\escaleras_y_serpientes\src\jugadorhumano.cpp
+	"JugadorHumano.h"
+
+1417799028 source:j:\proyecto final punto 3\escaleras_y_serpientes\src\jugadormaquina.cpp
+	"JugadorMaquina.h"
+
+1417835038 source:j:\proyecto final punto 3\escaleras_y_serpientes\src\partida.cpp
+	"Partida.h"
+
+1417214478 source:j:\proyecto final punto 3\escaleras_y_serpientes\src\tablero.cpp
+	"Tablero.h"
+
+1418144274 source:j:\proyecto final punto 3\escaleras_y_serpientes\src\ganadores.cpp
+	"Ganadores.h"
+
+1418179552 source:j:\escaleras_y_serpientes\main.cpp
+	<iostream>
+	"FabricaJugador.h"
+
+1418179552 j:\escaleras_y_serpientes\include\juez.h
+	"Tablero.h"
+	"Jugador.h"
+	"Ganadores.h"
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<string>
+	<windows.h>
+	<sstream>
+
+1418178914 j:\escaleras_y_serpientes\include\tablero.h
+	<string>
+	<windows.h>
+	<iostream>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+
+1418179932 j:\escaleras_y_serpientes\include\jugador.h
+	<string>
+
+1418179932 j:\escaleras_y_serpientes\include\fabricajugador.h
+	"Jugador.h"
+	"Ganadores.h"
+	"JugadorHumano.h"
+	"JugadorMaquina.h"
+	"Juez.h"
+	<iostream>
+	<windows.h>
+
+1418180028 j:\escaleras_y_serpientes\include\ganadores.h
+	<sstream>
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<string>
+	<fstream>
+
+1418179748 j:\escaleras_y_serpientes\include\jugadorhumano.h
+	"Jugador.h"
+	<string>
+
+1418179748 j:\escaleras_y_serpientes\include\jugadormaquina.h
+	"Jugador.h"
+	<string>
+
+1418179552 source:j:\escaleras_y_serpientes\src\juez.cpp
+	"Juez.h"
+
+1418179932 source:j:\escaleras_y_serpientes\src\fabricajugador.cpp
+	"FabricaJugador.h"
+
+1418178030 source:j:\escaleras_y_serpientes\src\ganadores.cpp
+	"Ganadores.h"
+
+1418178914 source:j:\escaleras_y_serpientes\src\jugador.cpp
+	"Jugador.h"
+
+1418178914 source:j:\escaleras_y_serpientes\src\jugadorhumano.cpp
+	"JugadorHumano.h"
+
+1418178914 source:j:\escaleras_y_serpientes\src\jugadormaquina.cpp
+	"JugadorMaquina.h"
+
+1418178914 source:j:\escaleras_y_serpientes\src\tablero.cpp
+	"Tablero.h"
+
+1418179552 source:e:\univalle\proyectos\grupo 6\escaleras_y_serpientes\main.cpp
+	<iostream>
+	"FabricaJugador.h"
+
+1418179932 e:\univalle\proyectos\grupo 6\escaleras_y_serpientes\include\fabricajugador.h
+	"Jugador.h"
+	"Ganadores.h"
+	"JugadorHumano.h"
+	"JugadorMaquina.h"
+	"Juez.h"
+	<iostream>
+	<windows.h>
+
+1418179932 e:\univalle\proyectos\grupo 6\escaleras_y_serpientes\include\jugador.h
+	<string>
+
+1418180028 e:\univalle\proyectos\grupo 6\escaleras_y_serpientes\include\ganadores.h
+	<sstream>
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<string>
+	<fstream>
+
+1418179748 e:\univalle\proyectos\grupo 6\escaleras_y_serpientes\include\jugadorhumano.h
+	"Jugador.h"
+	<string>
+
+1418179748 e:\univalle\proyectos\grupo 6\escaleras_y_serpientes\include\jugadormaquina.h
+	"Jugador.h"
+	<string>
+
+1418179552 e:\univalle\proyectos\grupo 6\escaleras_y_serpientes\include\juez.h
+	"Tablero.h"
+	"Jugador.h"
+	"Ganadores.h"
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<string>
+	<windows.h>
+	<sstream>
+
+1418178914 e:\univalle\proyectos\grupo 6\escaleras_y_serpientes\include\tablero.h
+	<string>
+	<windows.h>
+	<iostream>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+
+1418179932 source:e:\univalle\proyectos\grupo 6\escaleras_y_serpientes\src\fabricajugador.cpp
+	"FabricaJugador.h"
+
+1418180294 source:e:\univalle\proyectos\grupo 6\escaleras_y_serpientes\src\ganadores.cpp
+	"Ganadores.h"
+
+1418179552 source:e:\univalle\proyectos\grupo 6\escaleras_y_serpientes\src\juez.cpp
+	"Juez.h"
+
+1418178914 source:e:\univalle\proyectos\grupo 6\escaleras_y_serpientes\src\jugador.cpp
+	"Jugador.h"
+
+1418178914 source:e:\univalle\proyectos\grupo 6\escaleras_y_serpientes\src\jugadorhumano.cpp
+	"JugadorHumano.h"
+
+1418178914 source:e:\univalle\proyectos\grupo 6\escaleras_y_serpientes\src\jugadormaquina.cpp
+	"JugadorMaquina.h"
+
+1418178914 source:e:\univalle\proyectos\grupo 6\escaleras_y_serpientes\src\tablero.cpp
+	"Tablero.h"
+
